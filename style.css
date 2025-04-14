@@ -1,0 +1,93 @@
+
+*{
+    font-family:arial;
+}
+body{
+    padding-top:150px;
+    position:relative;
+    background-image: url("Porshe4.jpg");
+    background-size: cover;
+    z-index:-1;
+}
+.base{
+    margin:auto;
+    height:400px;
+    width:350px;
+    border:0.1px solid rgb(192, 191, 191);            
+    border-radius: 20px;
+    backdrop-filter: blur(6px); 
+    box-shadow: auto;
+    z-index:1;
+}
+.formBody{
+    height:400px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formBody:hover{
+    border:1px solid white;
+    box-shadow:0px 0px 1px lightblue , 0px 0px 5px lightblue;
+    border-radius:20px;
+}
+
+.checkboxBody{
+    width:310px;
+    display:flex;
+    background-color:transparent;
+    justify-content: space-between;
+}
+.txt1,
+.txt2{
+    width:280px;
+    line-height: 30px;
+    border-radius:20px;
+    padding-left:20px;
+    /* border:1px solid rgb(240, 238, 238);    ; */
+    border:none;
+    background-color:rgb(240, 238, 238 , 0.5);   
+}
+.txt1:hover,
+.txt2:hover{
+    background-color:rgba(240 , 238 , 238 , 0.3)
+}
+
+
+.buttonBox{
+    width:300px;
+    height:35px;
+    font-size:15px;
+    border-radius:20px;
+    border:none;
+}
+.buttonBox:hover{
+    background-color:rgba(255,255,255,0.8);
+}
+.buttonBox:active{
+    background-color:rgba(255,255,255,0.6);
+}
+
+
+h2{
+    color:rgb(240, 238, 238);
+    text-shadow: 0 0 2px black, 0 0 2px black;
+    font-weight:600;
+    font-size:40px;
+}
+h2:hover{
+    text-shadow: 0 0 3px black, 0 0 3px black;
+
+}
+
+label{
+    color:rgb(240, 238, 238);
+    font-weight:500;
+    text-shadow: 0 0 2px black, 0 0 2px black;
+}
+label:hover{
+    text-shadow: 0 0 2px black, 0 0 2px black;
+}
+label:active{
+    text-shadow: 0 0 3px white, 0 0 3px white;
+    color:rgb(0, 0, 0);
+}
